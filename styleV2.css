@@ -1,0 +1,149 @@
+html, body {
+    margin:0;
+}
+header{
+    background-color: rgb(92, 92, 92);
+    color: white;
+    height: 88px;
+    width:90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    position:fixed;
+    z-index: 10;
+    border:5px rgba(87, 119, 124, 0.986) solid
+}
+#logo{
+    height: 88px;
+    width: 170px;
+}
+#menu{
+    float: right;
+    margin-right: 0;
+    list-style: none;
+    margin-top: 0px;
+}
+li{
+    float: left;
+    padding: 30 10 30 10;
+    font-size: 25px;
+}
+li:hover{
+    background-color: teal;
+}
+a{
+    color: white;
+}
+#imagem_fundo{
+    background-image: url("1Meu_Primeiro_Site/imgs/pexels-asim-alnamat-32997.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0px  -100px;
+    height: 100%;
+    text-align:center;
+}
+#titulo {
+    color: white;
+    padding-top: 20%;
+    font-size: 50px;
+    line-height: 0.6;
+    margin-top: 0;
+}
+#subtitulo {
+    color:white;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 30px;
+    border-top: 3px solid white;
+    text-shadow: 1px 1px white;
+}
+#boton1 {
+    color: white;
+    border:1px white solid;
+    padding: 10px 20px 10px 20px;
+}
+.icone {
+    width: 51px;
+}
+section {
+    padding: 20px;
+    height: 60%;
+}
+.intersection{
+    border-top:30px rgba(87, 119, 124, 0.986) solid;
+}
+.destaque {
+    background-color: #bebebe96;
+    margin: cover;
+}
+.imgeco {
+    width: 90%;
+}
+.navegacion{
+     list-style: none;
+}
+.coluna{
+float: left;
+padding: 0 5%;
+position: relative;
+width: 40%;
+}
+.direita{
+float: right;
+padding: 0 5%;
+position: relative;
+width: 40%;
+}
+.justificado{
+text-align: justify;
+}
+.centralizado{
+    text-align: center;
+    font-size: 35px;  
+    padding-top:0 ;
+    padding-bottom: 0;  
+}
+.subrayado{
+border-bottom: 2px black solid;
+padding-bottom: 10px ;
+}
+.semargem{
+    margin:0;
+}
+.cuatrocolunas{
+float: left;
+padding: 0 5%;
+position: relative;
+width: 10%;
+margin: 0;
+border: 1px black;
+}      
+footer{
+    width: 100%;
+    height: 25%;
+    background-color: teal;
+}
+#h3footer{
+    margin-top: 0px;
+}
+#pfooter{
+    margin-bottom: 0;
+}
+#textocentro{
+    padding-top: 30px;
+}
+.tamanho{
+    height: 50%;
+    border-bottom: 1px black solid;
+}
+iframe{
+    border-bottom: 30px;
+}
+.textcentro{
+    margin-top: 30px;
+}
+#SOBREMIM{
+    height: 25%;
+}
+.letraobjetivo{
+    font-size: 21px;
+}
